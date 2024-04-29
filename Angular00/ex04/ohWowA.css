@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("https://pbs.twimg.com/media/FA-tuFWVEAAo97v.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://i.pinimg.com/originals/f2/cc/f3/f2ccf3b3e891434a754ed48f4b9df57f.jpg");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://pbs.twimg.com/media/E_YiEaKVEAE0SBm.jpg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+  .caption span.border2 {
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
+  .separator {
+    position:relative;
+    color:#ddd;
+    background-color:#282E34;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+  }
+
+  .separator2 {
+    position:relative;
+    color:#777;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+  }
+  
+  h3 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
