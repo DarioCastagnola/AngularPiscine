@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="card.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+</head>
+<body>
+<tbody>
+    <div class="card">
+        <tr>
+            <div><td><h1>Me, myself and I</h1></td></div>
+        </tr>
+        <div class="card-title">Profile Card</div>
+        <img id="myImg" class="profile-pic" src="https://cdn.intra.42.fr/users/5e90bb6c18018d7cc377cc24faef3eca/dcastagn.jpg" alt="Profile Picture">
+        <table>
+            <tr>
+                <td id="myName">Dario Castagnola</td>
+            </tr>
+            <tr>
+                <td>42 Student</td>
+            </tr>
+        </table>
+        <div class="button-container">
+            <button onclick='document.getElementById("myImg").src="https://cdn.intra.42.fr/users/70527f1f775c37b0aa026b07036701b4/lde-mich.jpg"' class="img-btn">Change image</button>
+            <button onclick='document.getElementById("myName").textContent = "lde-mich"' class="text-btn">Change User</button>
+        </div>
+    </div>
+</tbody>
+</body>
+</html>

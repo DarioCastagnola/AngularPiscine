@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="card.css"> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile card</title>
+    </head>
+    <body>
+<button onclick="clone_card()" class="clone-btn">Clone Card</button>
+<tbody>
+    <div class="card">
+        <tr>
+            <div><td><h1>Me, myself and I</h1></td></div>
+        </tr>
+        <div class="card-title">Profile Card</div>
+        <img id="myImg" class="profile-pic" src="https://cdn.intra.42.fr/users/5e90bb6c18018d7cc377cc24faef3eca/dcastagn.jpg" alt="Profile Picture">
+        <table>
+            <tr>
+                <td id="myName" class="name-class">Dario Castagnola</td>
+            </tr>
+            <tr>
+                <td>42 Student</td>
+            </tr>
+        </table>
+        <div class="button-container">
+            <button onclick="change_image('myImg')" class="img-btn">Change image</button>
+            <button onclick="change_text('myName')" class="text-btn">Change User</button>
+        </div>
+    </div>
+    <script src="ohWowA.js"></script>
+</tbody>
+</body>
+</html>
