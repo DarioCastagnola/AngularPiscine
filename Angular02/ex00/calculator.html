@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculator.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class ="calculator-line">
+        <input type="text" id="firstNumber" placeholder="Enter first number">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+        <input type="text" id="secondNumber" placeholder="Enter second number">
+        <button onclick="calculate()">Calculate me baby!</button>
+        <p id="result"></p>
+    </div>
+    <script src="calculator.js"></script>
+    </body>
+</html>

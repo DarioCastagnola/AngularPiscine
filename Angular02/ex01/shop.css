@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+}
+
+body {
+  background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card_container
+{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+  .card {
+    width: 22%;
+    overflow: hidden;
+    display: flex;
+    background-color: darkgrey;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .card-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .card-price {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .card-description {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .card-category {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .card-image {
+    max-width: 150px; /* Set maximum width */
+    height: auto; /* Let the height adjust automatically */
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .card-image img {
+    max-width: 100%; /* Set maximum width to the size of its container */
+    height: auto; /* Let the height adjust automatically */
+}
