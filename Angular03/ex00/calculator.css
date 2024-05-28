@@ -1,0 +1,14 @@
+input[type="text"] {
+    width: 100px; /* Adjust width as needed */
+    padding: 5px; /* Adjust padding as needed */
+    margin: 5px; /* Adjust margin as needed */
+}
+
+.calculator-line {
+
+    width: 300px; /* Adjust width as needed */
+    margin: auto; /* This centers the div horizontally */
+    text-align: center; /* This centers the contents of the div */
+    padding: 20px;
+    border: 1px solid #ccc; /* Just for visual clarity */
+}
